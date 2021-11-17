@@ -41,7 +41,7 @@ export default function Feed() {
             <section>
                 {console.log('no', change.no, "sort", change.sort)}
                 <article>
-                    {API.map(item => <div className="card" key={Math.random()}>
+                    {API.map(item => <div className="card" key={Math.random()*10}>
                         <img src={item.thumbnail_image} alt="" />
                         <div className="details">
 
